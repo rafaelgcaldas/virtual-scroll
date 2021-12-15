@@ -1,0 +1,13 @@
+.virtual-scroll-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.virtual-scroll {
+  width: 100px; 
+  height: 150px; 
+  border: 3px solid green; 
+  display: inline-block
+}

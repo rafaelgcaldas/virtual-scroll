@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'virtualScroll';
+  numbers: number[] = [];
+
+  constructor() {
+    for (let i = 0; i < 10000; i++) {
+      this.numbers.push(i);
+    }
+  }
 }
